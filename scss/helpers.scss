@@ -1,0 +1,43 @@
+.red{
+    color: $red;
+}
+
+.green{
+    color: $green;
+}
+
+.purple{
+    color: $purple;
+}
+
+.orange{
+    color: $orange;
+}
+
+.center{
+    text-align: center;
+}
+
+.red__border{
+    border-bottom: 3px solid $red;
+}
+
+.green__border{
+    border-bottom: 3px solid $green;
+}
+
+.purple__border{
+    border-bottom: 3px solid $purple;
+}
+
+.orange__border{
+    border-bottom: 3px solid $orange;
+}
+
+.margin__left--right{
+    margin: 0 15px;
+}
+
+.color{
+    background-color: #fff;
+}

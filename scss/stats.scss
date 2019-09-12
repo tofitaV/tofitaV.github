@@ -1,0 +1,33 @@
+.stats{
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: url(/img/stats/cofe-bg.jpg) center no-repeat;
+    background-size: cover;
+
+}
+
+.stats__inner{
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stats__item{
+    display: flex;
+    flex-basis: 24%;
+    flex-direction: column;
+}
+
+.stats__numbers{
+    font-size: 20px;
+    padding: 15px 0;
+    color: #fff;
+}
+
+.stats__text{
+    color: $gray-middle;
+    padding-bottom: 30px;
+}

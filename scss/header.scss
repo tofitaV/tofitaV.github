@@ -1,0 +1,38 @@
+.header{
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header__inner{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link{
+    margin-right: 15px;
+    font-weight: 500;
+    color: $black;
+    display: inline-block;
+    justify-content: space-between;
+    transition: color .2s linear;
+
+    &:hover{
+        color:$red;
+        
+    }
+
+    &:last-child{
+        margin-right: 0;
+    }
+}

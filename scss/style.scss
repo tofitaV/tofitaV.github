@@ -1,0 +1,34 @@
+@import "vars";
+@import "header";
+@import "home";
+@import "btn";
+@import "helpers";
+@import "about";
+@import "section";
+@import "video";
+@import "portfolio";
+@import "team";
+@import "stats";
+
+
+body{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: $black;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
