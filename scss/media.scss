@@ -428,6 +428,8 @@
     .work__item{
         margin-bottom: 15px;
     }
+
+    
 }
 
 @media (max-width: 470px){
@@ -459,6 +461,10 @@
     .footer::after{
         background-image: linear-gradient(to right, #FB5441, #FB5441 98px, #38c293 81px, #38c293 205px, #b27cf5 189px, #b27cf5 311px, #feb960 257px, #feb960 438px);
     }
+
+    .about__img{
+        width: 350px;
+    }
 }
 
 @media (max-width: 420px){
@@ -485,6 +491,9 @@
     .about__info{
         left: 20px;
         padding: 15px 20px;
+    }
+    .section__title{
+        font-size: 34px;
     }
 
 }
