@@ -9,7 +9,15 @@
 @import "portfolio";
 @import "team";
 @import "stats";
-
+@import "work";
+@import "pricing";
+@import "testimonials";
+@import "select";
+@import "blog";
+@import "newsletter";
+@import "contact";
+@import "footer";
+@import "media";
 
 body{
     font-size: 15px;
@@ -24,6 +32,7 @@ body{
     box-sizing: border-box;
     text-decoration: none;
     margin: 0;
+    padding: 0;
 }
 
 .container{
@@ -32,3 +41,5 @@ body{
     padding: 0 15px;
     margin: 0 auto;
 }
+
+

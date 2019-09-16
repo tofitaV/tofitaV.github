@@ -1,0 +1,57 @@
+.testimonials{
+    margin-top: 130px;
+    background-color: #fff;
+    position: relative;
+
+
+    &__item{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:40px 70px 35px 450px;
+    position: relative;
+    }
+
+    &__photo{
+        position: absolute;
+        left: 0;
+        top: -70px;
+        z-index: 1;
+        border: #a3a3a3 11px solid;
+    }
+
+    &__text{
+        font-size: 15px;
+        color: $black;
+        text-align: left;
+    }
+    &__author{
+        color: $black;
+        font-size: 18px;
+        font-weight: 500;
+
+    }
+    &__signature{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    &__position{
+        color: $red;
+        font-size: 13px;
+    }
+    &__quotes{
+        color: $gray;
+        font-size: 337px;
+        font-weight: 700;
+        position: absolute;
+        top: 3px;
+        left: 29%;
+        opacity: 0.3;
+        transform: translate(50%, -12%);
+        font-family: $libre;
+        z-index: 2;
+    }
+    
+
+}
